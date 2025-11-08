@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40a8c83f0c30f3b3",
+        "id": "ccb4480f9043fbf4",
         "type": "tabs",
         "children": [
           {
-            "id": "f988986014f85f55",
+            "id": "9eb9257b7424bcd6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HashMap.md",
+                "file": "Rust/泛型和特征.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HashMap 的出链列表"
+              "title": "泛型和特征 的出链列表"
             }
           },
           {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HashMap.md",
+                "file": "Rust/泛型和特征.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HashMap 的大纲"
+              "title": "泛型和特征 的大纲"
             }
           },
           {
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f988986014f85f55",
+  "active": "9eb9257b7424bcd6",
   "lastOpenFiles": [
     "Rust/HashMap.md",
-    "2025-11-08.md",
     "Rust/泛型和特征.md",
+    "2025-11-08.md",
     "未命名.base",
     "Rust"
   ]
