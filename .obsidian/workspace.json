@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a8aef25e8964eebb",
+        "id": "40a8c83f0c30f3b3",
         "type": "tabs",
         "children": [
           {
-            "id": "96a9ce14096d74be",
+            "id": "f988986014f85f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,10 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96a9ce14096d74be",
+  "active": "f988986014f85f55",
   "lastOpenFiles": [
-    "Rust/泛型和特征.md",
     "Rust/HashMap.md",
+    "2025-11-08.md",
+    "Rust/泛型和特征.md",
     "未命名.base",
     "Rust"
   ]
