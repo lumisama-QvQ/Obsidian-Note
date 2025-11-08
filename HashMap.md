@@ -59,7 +59,7 @@ where
 >但解包取值还要多写一行，程序猿都是懒的，有没有一次取到值的写法？
 >有的，有的
 >`let num:i32 = hashmap.get("blue".to_string).copied().unwrap_or(0);`
->这里， 先用`copied()`方法
+>这里， 先用`copied()`方法复制，将`&V`变为`V`，后用`unwrap_or()`方法进行错误处理，在`cpied()
 
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
