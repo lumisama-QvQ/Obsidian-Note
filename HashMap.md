@@ -30,6 +30,9 @@ let mut team_map:HashMap<_,_> = team_list.into_inter().collect();
 
 ## 所有权
 与其他的集合类型类似，所以要特别注意包含`clone`和`borrow`特征的类型
-- `insert(K, V)`方法会将`K`,`V`的所有权
+- `insert(K, V)`方法会将`K`,`V`的所有权移入`HashMap`中
+- 类型若实现了`copy`特征， 则会复制入`HashMap`中， 所以无所谓所有权
+## 查询
+我们可以通过`get()`方法方便的获取元素
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
