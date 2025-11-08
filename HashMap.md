@@ -61,6 +61,7 @@ where
 >`let num:i32 = hashmap.get("blue".to_string).copied().unwrap_or(0);`
 >这里， 先用`copied()`方法复制，将`&V`变为`V`，后用`unwrap_or()`方法进行错误处理，在`cpied()`方法失败时默认返回`0`
 ## 更新
-有没有想过，若`insert()`方法的`K`值
+有没有想过，若`insert()`方法的`K`值之前已经插入过了，会发生什么？
+真如你所想，会更新原有键对
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
