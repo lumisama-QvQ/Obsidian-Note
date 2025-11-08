@@ -58,8 +58,8 @@ where
 >毕竟我们`Rust`可是安全语言，万一没查到呢？这时`Option`类型的好处就来了，有就返回`Some(&i32)`, 没有就返回`None
 >但解包取值还要多写一行，程序猿都是懒的，有没有一次取到值的写法？
 >有的，有的
->`let num:i32 = hashmap.get("blue".to_string).copied().unwrap_or(0)`
->
+>`let num:i32 = hashmap.get("blue".to_string).copied().unwrap_or(0);`
+>这里， 先用`copied()`方法
 
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
