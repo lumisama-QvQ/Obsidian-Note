@@ -17,17 +17,6 @@ let hashmap = HashMap::new();
 hashmap.inset(String::from("Blue"), 32);
 ```
 >如果提前知道`HashMap`的存储数量，可以使用`HashMap::with_capacity(capacity)`来指定大小，这可提高性能。
-
-这里贴上`insert()`的定义：
-```rust
-impl<K, V, S> HashMap<K, V, S>
-pub fn insert(&mut self, k: K, v: V) -> Option<V>
-where
-    // Bounds from impl:
-    K: Eq + Hash,
-    S: BuildHasher,
-```
-可见`insert()
 ### 批量插入
 可以通过遍历循环的方式，但在rust中更好的方式是使用迭代器：
 ```rust
@@ -73,6 +62,16 @@ where
 >这里， 先用`copied()`方法复制，将`&V`变为`V`，后用`unwrap_or()`方法进行错误处理，在`cpied()`方法失败时默认返回`0`
 ## 更新
 有没有想过，若`insert()`方法的`K`值之前已经插入过了，会发生什么？
-真如你所想，会更新原有键对
+正如你所想，会更新原有键对
+贴上`insert()`的定义：
+```rust
+impl<K, V, S> HashMap<K, V, S>
+pub fn insert(&mut self, k: K, v: V) -> Option<V>
+where
+    // Bounds from impl:
+    K: Eq + Hash,
+    S: BuildHasher,
+```
+在新创建键值对时， `insert()`会返回其`V`值， 而在更新/覆盖一个键值对时，`insert()`会
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
