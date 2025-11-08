@@ -81,6 +81,12 @@ where
     S: BuildHasher,
 ```
 在新创建键值对时， `insert()`会返回其`V`值， 而在更新/覆盖一个键值对时，`insert()`会返回更新前的`V`值
-我们还可以用
+我们还可以用`is_empty()`和`or_insert()`方法来实现智能插入
+```rust
+//仅当Blue不存在时才插入该键值对
+hashmap.is_empty("Blue".to_string).or_insert(32);
+```
+
+
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
