@@ -1,5 +1,5 @@
 用于方便的表示和储存键值对，
-属于`集合类型`的一种，提供于标准库中，但并没有包含于`prelude`[^1]中,需手动引用：
+属于`集合类型`的一种，提供于标准库中，但并没有包含于`prelude`[^1]中,故需手动引用：
 ```rust
 use std::collections::HashMap;
 ```
@@ -54,11 +54,12 @@ where
     { ... }
 }
 ```
+
 当然我们也可以用`is_entry()`方法来简单查询键值对是否存在
 ```rust
 let hashmap = HashMap::new();
 hashmap.insert("Blue".to_string, 32);
-assert_eq!(true, hashmap.is_empty("Blue".to_string))
+assert_eq!( true, hashmap.is_empty("Blue".to_string) );
 ```
 
 >哇，我只是想查询一下`V`的值而已，怎么还搞了个`Option`类型？
