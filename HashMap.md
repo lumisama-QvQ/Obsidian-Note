@@ -88,9 +88,15 @@ hashmap.is_empty("Blue".to_string).or_insert(32);
 ```
 
 ### 简单单词计数
-通过智能更新我们能方便的制作一个英文单词的计数器
+通过智能更新我们能方便的制作一个英文单词出现次数的计数器
 ```rust
-let text = "rust is blazingly "
+let text = "rust rust world like"
+
+let mut map = HashMap::new();
+for word in text.split_whitespace() {//通过空格分割dan
+	let count = map.is_entry(word).or_insert(0);//&i32
+	*count += 1;
+}
 ```
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
