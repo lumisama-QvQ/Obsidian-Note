@@ -37,12 +37,13 @@ let mut team_map:HashMap<_,_> = team_list.into_inter().collect();
 ```rust
 let hashmap = HashMap::new();
 hashmap.insert("Blue".to_string, 23);
-let num = hashmap.get("blue");
+let num = hashmap.get(&"blue".to_string);
 assert_eq!(num, Option(
 	Some(&23)
 	)
 )
 ```
-
+- 注意到， `get()`方法会返回一个`Option<&i32>`类型，此处的借用是必要的，不然可能会引起所有权的转移，这会造成一些不必要的问题
+- 同样，`get()`方法的参数
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
