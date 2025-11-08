@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7892e6807d081094",
@@ -166,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70497f50dfca70fb",
+  "active": "b8ee8ed97534c476",
   "lastOpenFiles": [
     "未命名.base",
     "HashMap.md",

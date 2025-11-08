@@ -1,3 +1,5 @@
 {
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "cssTheme": "Tokyo Night",
+  "nativeMenus": false
 }
