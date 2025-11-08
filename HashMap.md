@@ -34,5 +34,15 @@ let mut team_map:HashMap<_,_> = team_list.into_inter().collect();
 - 类型若实现了`copy`特征， 则会复制入`HashMap`中， 所以无所谓所有权
 ## 查询
 我们可以通过`get()`方法方便的获取元素
+```rust
+let hashmap = HashMap::new();
+hashmap.insert("Blue".to_string, 23);
+let num = hashmap.get("blue");
+assert_eq!(num, Option(
+	Some(&23)
+	)
+)
+```
+
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
