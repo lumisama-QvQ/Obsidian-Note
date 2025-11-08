@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/HashMap.md",
+                "file": "Rust/泛型和特征.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HashMap"
+              "title": "泛型和特征"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7892e6807d081094",
@@ -183,8 +184,8 @@
   },
   "active": "9eb9257b7424bcd6",
   "lastOpenFiles": [
-    "Rust/泛型和特征.md",
     "Rust/HashMap.md",
+    "Rust/泛型和特征.md",
     "2025-11-08.md",
     "未命名.base",
     "Rust"
