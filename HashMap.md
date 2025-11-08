@@ -44,6 +44,19 @@ assert_eq!(num, Option(
 )
 ```
 - 注意到， `get()`方法会返回一个`Option<&i32>`类型，此处的借用是必要的，不然可能会引起所有权的转移，这会造成一些不必要的问题
-- 同样，`get()`方法的参数
+- 同样，`get()`方法的参数是一个借用，这主要是`get()`方法的签名原因：
+```rust
+impl<K, V> HashMap<K, V>
+where
+    K: Eq + Hash,
+{
+    pub fn get<Q>(&self, k: &Q) -> Option<&V>
+    where
+        K: Borrow<Q>,
+        Q: Hash + Eq + ?Sized,
+    { ... }
+}
+```
+>哇，我只是xing
 
 [^1]: Rust方便用户使用所编写所搞的自动预加载库，是不是很贴心😉？
