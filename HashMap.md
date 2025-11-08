@@ -54,7 +54,13 @@ where
     { ... }
 }
 ```
-当然我们也可以用`entry()`方法来简单
+当然我们也可以用`is_entry()`方法来简单查询键值对是否存在
+```rust
+let hashmap = HashMap::new();
+hashmap.insert("Blue".to_string, 32);
+assert_eq!(true, hashmap.is_empty("Blue".to_string))
+```
+
 >哇，我只是想查询一下`V`的值而已，怎么还搞了个`Option`类型？
 >毕竟我们`Rust`可是安全语言，万一没查到呢？这时`Option`类型的好处就来了，有就返回`Some(&i32)`, 没有就返回`None
 >但解包取值还要多写一行，程序猿都是懒的，有没有一次取到值的写法？
