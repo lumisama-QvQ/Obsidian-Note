@@ -17,6 +17,17 @@ let hashmap = HashMap::new();
 hashmap.inset(String::from("Blue"), 32);
 ```
 >如果提前知道`HashMap`的存储数量，可以使用`HashMap::with_capacity(capacity)`来指定大小，这可提高性能。
+
+这里贴上`insert()`的定义：
+```rust
+impl<K, V, S> HashMap<K, V, S>
+pub fn insert(&mut self, k: K, v: V) -> Option<V>
+where
+    // Bounds from impl:
+    K: Eq + Hash,
+    S: BuildHasher,
+```
+可见`insert()
 ### 批量插入
 可以通过遍历循环的方式，但在rust中更好的方式是使用迭代器：
 ```rust
