@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/泛型和特征.md",
+                "file": "使用Linux的一些技巧/2025年12月15日.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "泛型和特征 的大纲"
+              "title": "2025年12月15日 的大纲"
             }
           },
           {
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
