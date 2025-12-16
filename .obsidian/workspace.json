@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "使用Linux的一些技巧/2025年12月16日.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025年12月16日"
             }
           }
         ]
@@ -184,10 +184,10 @@
   "active": "e5f71f4ece2c0ac1",
   "lastOpenFiles": [
     "使用Linux的一些技巧/2025年12月15日.md",
-    "使用Linux的一些技巧/2025年12月16日.md",
     "Rust/泛型和特征.md",
-    "Rust/HashMap.md",
     "README.md",
+    "使用Linux的一些技巧/2025年12月16日.md",
+    "Rust/HashMap.md",
     "未命名",
     "使用Linux的一些技巧",
     "2025-11-08.md",
