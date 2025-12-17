@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd050e668e5a195f",
+  "active": "b31e567d0e94d18d",
   "lastOpenFiles": [
     "使用Linux的一些技巧/images/Pasted image 20251217200633.png",
     "使用Linux的一些技巧/2025年12月17日.md",
