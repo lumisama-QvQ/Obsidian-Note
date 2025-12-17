@@ -1,3 +1,8 @@
 {
-  "vimMode": false
+  "vimMode": false,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./附件",
+  "newFileLocation": "current"
 }
