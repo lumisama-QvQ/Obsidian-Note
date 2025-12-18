@@ -192,9 +192,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd050e668e5a195f",
+  "active": "5911ce5c7b028e64",
   "lastOpenFiles": [
-    "VIA/未命名.md",
+    "VIA/README.md",
+    "README.md",
     "使用Linux的一些技巧/未命名.md",
     "VIA",
     "2025-12-17.md",
@@ -209,7 +210,6 @@
     "images",
     "使用Linux的一些技巧/images",
     "Rust/泛型和特征.md",
-    "README.md",
     "Rust/HashMap.md",
     "使用Linux的一些技巧",
     "2025-11-08.md",
