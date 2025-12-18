@@ -4,5 +4,6 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./附件",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "strictLineBreaks": true
 }
