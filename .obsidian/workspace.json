@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "使用Linux的一些技巧/2025年12月17日.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2025年12月17日"
             }
           }
         ],
@@ -194,8 +194,8 @@
   },
   "active": "5911ce5c7b028e64",
   "lastOpenFiles": [
-    "VIA/README.md",
     "README.md",
+    "VIA/README.md",
     "使用Linux的一些技巧/未命名.md",
     "VIA",
     "2025-12-17.md",
