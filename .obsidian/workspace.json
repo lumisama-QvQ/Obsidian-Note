@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70497f50dfca70fb",
+  "active": "72640e2a0f7d8da4",
   "lastOpenFiles": [
     "使用Linux的一些技巧/附件/Pasted image 20251219140213.png",
     "使用Linux的一些技巧/附件/Pasted image 20251219140031.png",
