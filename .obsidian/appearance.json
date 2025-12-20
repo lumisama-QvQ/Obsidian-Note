@@ -2,5 +2,6 @@
   "theme": "obsidian",
   "cssTheme": "Tokyo Night",
   "nativeMenus": false,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "baseFontSize": 21
 }
