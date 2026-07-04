@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d921cdc232dfe210",
+        "id": "7d70681e6e1b242d",
         "type": "tabs",
         "children": [
           {
-            "id": "e711febcf22d7e49",
+            "id": "ced9d44e2fcca24b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd050e668e5a195f",
+  "active": "ced9d44e2fcca24b",
   "lastOpenFiles": [
     "数学/未命名.md",
     "数学",
