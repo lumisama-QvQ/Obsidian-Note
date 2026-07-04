@@ -175,12 +175,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb03164e65632aba",
+  "active": "70497f50dfca70fb",
   "lastOpenFiles": [
     "链接地址.md",
     "markdown个人笔记.md",
