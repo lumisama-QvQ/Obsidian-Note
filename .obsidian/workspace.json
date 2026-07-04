@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70497f50dfca70fb",
+  "active": "a856679686c1d66f",
   "lastOpenFiles": [
     "未命名 1.base",
     "未命名 2.base",
