@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d70681e6e1b242d",
+        "id": "8109e61e5ea7d541",
         "type": "tabs",
         "children": [
           {
-            "id": "ced9d44e2fcca24b",
+            "id": "a856679686c1d66f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#manjaro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,8 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ced9d44e2fcca24b",
+  "active": "a856679686c1d66f",
   "lastOpenFiles": [
+    "未命名 1.base",
+    "未命名 2.base",
+    "未命名.base",
     "markdown个人笔记.md",
     "数学/未命名.md",
     "数学",
@@ -196,7 +199,6 @@
     "使用Linux的一些技巧/2025年12月20日.md",
     "README.md",
     "Rust/HashMap.md",
-    "未命名.base",
     "使用Linux的一些技巧/附件/Pasted image 20251217200633.png",
     "使用Linux的一些技巧/附件/Pasted image 20251219140213.png",
     "使用Linux的一些技巧/附件/Pasted image 20251219140031.png",
