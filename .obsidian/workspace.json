@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "数学/未命名.md",
                 "mode": "source",
                 "source": false
               },
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -176,13 +176,13 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "7da2eff150c78d13",
+  "active": "bd050e668e5a195f",
   "lastOpenFiles": [
-    "未命名.md",
+    "数学/未命名.md",
+    "数学",
     "使用Linux的一些技巧/在obsidian中使用Latex.md",
     "使用Linux的一些技巧/2025年12月19日.md",
     "使用Linux的一些技巧/2025年12月17日.md",
