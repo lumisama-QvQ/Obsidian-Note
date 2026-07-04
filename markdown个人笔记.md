@@ -96,3 +96,32 @@
 
 ## 特殊函数和符号
 
+- 三角函数：`\sin`, `\cos`, `\tan`
+- 对数：`\log`, `\ln`
+- 极限：`\lim_{x \to 0}`
+- 求和：`\sum_{i=1}^{n}`
+- 积分：`\int_{a}^{b}`
+- 无穷：`\infty`
+## 矩阵表示
+
+```
+$$
+    \begin{pmatrix}
+    a & b \\
+    c & d
+    \end{pmatrix}
+    $$
+```
+
+不同括号类型的矩阵:
+- `pmatrix`：圆括号 $\begin{pmatrix} a & b \ c & d \end{pmatrix}$
+- `bmatrix`：方括号 $\begin{bmatrix} a & b \ c & d \end{bmatrix}$
+- `vmatrix`：行列式 $\begin{vmatrix} a & b \ c & d \end{vmatrix}$
+```mermaid
+%%{init: {'theme': 'forest'}}%%
+pie
+	title text
+	"a" : 30
+	"b" : 40
+	"c" : 30
+```
